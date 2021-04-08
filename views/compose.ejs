@@ -1,0 +1,15 @@
+<%- include('header'); -%>   
+ <h1>Compose new blog</h1><br>
+        <form action="/compose" method="POST" enctype="multipart/form-data">
+          <div class="form-group">
+            <label>Select image</label>
+            <input type="file" id="img" name="img" accept="image/*"><br>
+            <label>Title</label>
+            <input class="form-control" type="text" name="postTitle">
+            <label>Post</label>
+            <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+          </div>
+            
+            <button class="btn btn-primary" type="submit">Publish</button>
+        </form>
+<%- include('footer'); -%>

@@ -1,0 +1,54 @@
+<%- include('header'); -%>
+<br><br>
+<h1>How You Contact us!</h1><br>
+<div class="col-sm-10">
+    <h4>
+        <%= contactContent %><br><br>
+    </h4>
+    
+</div>
+
+<div class="container">
+
+    <br>
+    
+    <div class="row">
+      <div class="col-md-8">
+          <form action="/contact" method="post">
+            <input class="form-control" name="name" placeholder="Name..." /><br />
+            <input class="form-control" name="phone" placeholder="Phone..." /><br />
+            <input class="form-control" name="email" placeholder="E-mail..." /><br />
+            <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
+            <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
+          </form>
+      </div>
+      <div class="col-md-4">
+        <b>Customer service:</b> <br />
+        Phone: +1 129 209 291<br />
+        E-mail: <a href="mailto:support@mysite.com">support@mysite.com</a><br />
+        <br /><br />
+        <b>Headquarter:</b><br />
+        Company Inc, <br />
+        Las vegas street 201<br />
+        55001 Nevada, USA<br />
+        Phone: +1 145 000 101<br />
+        <a href="mailto:usa@mysite.com">usa@mysite.com</a><br />
+    
+    
+        <br /><br />
+        <b>Hong kong:</b><br />
+        Company HK Litd, <br />
+        25/F.168 Queen<br />
+        Wan Chai District, Hong Kong<br />
+        Phone: +852 129 209 291<br />
+        <a href="mailto:hk@mysite.com">hk@mysite.com</a><br />
+      </div>
+    </div>
+    
+    </div>
+    <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55304.75362375428!2d77.52140760987167!3d29.96370317958397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eea921f841f45%3A0x39baf780903811f!2sSaharanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1587424968134!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    
+    
+<%- include('footer'); -%>

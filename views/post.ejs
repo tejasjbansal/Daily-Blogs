@@ -1,0 +1,23 @@
+<%- include('header'); -%>
+        <h1 style="padding-bottom: 30px;"><%=postName%></h1>
+      <img src="/uploads/images/<%=postImage%>" alt="" class="responsive"><br><br>
+      <h4 style="font-family: Arial, Helvetica, sans-serif;"><strong><%=postContent%></strong></h4>
+    
+  <div class="col-md-8">
+    <form>
+      <h1 style="padding-top: 40px;">Leave a Reply</h1>
+      <h3>Your email address will not be published. </h3><br>
+      <label style="font-size: 20px;">Comment</label>
+      <textarea class="form-control" name="text" placeholder="" style="height:150px;"></textarea><br />
+      <label style="font-size: 20px;">Name</label>
+      <input class="form-control" name="name" placeholder="" /><br />
+      <label style="font-size: 20px;">Website</label>
+      <input class="form-control" name="phone" placeholder="" /><br />
+      <label style="font-size: 20px;">Email</label>
+      <input class="form-control" name="email" placeholder="" /><br />
+      
+      <input class="btn btn-primary btn-lg" type="submit" value="Send" /><br /><br />
+    </form>
+</div>
+
+<%- include('footer'); -%>

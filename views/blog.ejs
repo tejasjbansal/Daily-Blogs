@@ -1,0 +1,11 @@
+<%- include('header'); -%>
+<h1 style="font-size: 50px;">Articles</h1><br>
+<% posts.forEach(function(post){ %>
+  <div style="float: left; width: 380px;" >
+    <img src="/uploads/images/<%=post.image%>" alt="Smiley face" height="200" width="350">
+<h1 style="font-size: medium; padding-bottom: 30px; padding-right: 20px;"><a href="/posts/<%=post._id%>"><%= post.title %></a></h1>
+</div>
+  <% }) %>
+  
+
+<%- include('footer'); -%>
