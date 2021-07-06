@@ -1,7 +1,5 @@
 # Daily-Blogs
-Blog website with multi-user feature, comments system and unique style.
-
-Made with NodeJS, EJS, Html5, Bootstrap, MongoDB, CSS3, js, jquery.
+Build a Blogging Website where the users can read and post the Articles. And also comment on other articles also. This Project was developed in Node, Express, Mongo DB, HTML, CSS, Bootstrap.
 
 # features
 * Blogs are categorised by hashtags
