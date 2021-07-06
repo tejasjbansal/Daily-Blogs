@@ -8,7 +8,8 @@ Build a Blogging Website where the users can read and post the Articles. And als
 * Authenticated user can comment else they will prompted to login
 * Search Blog or Writer.
 
-# Application Link : https://nameless-escarpment-61107.herokuapp.com/ 
+# Application Link : 
+https://nameless-escarpment-61107.herokuapp.com/ 
 # Screenshots
 
 #### Login Page
